@@ -1,0 +1,18 @@
+h1{
+    text-align: center;
+}
+body{
+    background-color: #345678;
+}
+p{
+    text-align: justify;
+    color: #c1ae10;
+}
+.film{
+    background: gray;
+    color: olivedrab;
+}
+img{
+    border: 15px solid gold;
+    width: 350px;
+}
