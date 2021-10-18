@@ -1,0 +1,30 @@
+h1{
+    text-align: center;
+    color: aqua;
+}
+body{
+    background-color: #345678;
+}
+p{
+    text-align: justify;
+    color: #c1ae10;
+}
+
+img{
+    border: 15px solid gold;
+    width: 350px;
+}
+.block1{
+    box-sizing: border-box;
+    border-left: 30px solid darkblue;
+    padding-left: 30px;
+    width: 440px;
+}
+.block2 {
+    border-left: 30px solid darkcyan;
+    background-color: darkslategray;
+    width: 1000px;
+    padding-left: 30px;
+    padding-right: 30px;
+    border-bottom-left-radius: 20px;
+}
