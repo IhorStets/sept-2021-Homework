@@ -1,0 +1,22 @@
+.qwerty {
+    display: flex;
+    width: 1000px;
+    flex-wrap: wrap;
+}
+.a{
+    width: 1000px;
+    height: 200px;
+}
+.b{
+    width: 750px;
+    height: 400px;
+}
+.c{
+    width: 250px;
+    height: 400px;
+}
+.x {
+    background-color: gray;
+    border: 5px solid darkgrey;
+    box-sizing: border-box;
+}
