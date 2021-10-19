@@ -1,22 +1,17 @@
-.qwerty {
-    display: flex;
+.container {
     width: 1000px;
-    flex-wrap: wrap;
-}
-.a{
-    width: 1000px;
-    height: 200px;
-}
-.b{
-    width: 750px;
-    height: 400px;
-}
-.c{
-    width: 250px;
-    height: 400px;
-}
-.x {
-    background-color: gray;
-    border: 5px solid darkgrey;
+    background-color: #d9d9d9;
+    margin: 0 auto;
+    padding: 5px;
+    border: 2px solid #a3a3a3;
+    border-radius: 6px;
     box-sizing: border-box;
+
+}
+
+.header {
+    height: 200px;
+    padding: 5px;
+    align-items: center;
+    justify-content: center;
 }

@@ -1,0 +1,46 @@
+.xxx {
+    width: 1000px;
+    height: 150px;
+    border: 1px solid black;
+    box-sizing: border-box;
+}
+
+#header {
+    background-color: olivedrab;
+}
+
+#footer {
+    background-color: lightpink;
+}
+
+.father {
+    width: 1000px;
+    height: 800px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-content: space-between;
+    row-gap: 20px;
+}
+
+#menu {
+    width: 200px;
+    height: 800px;
+    background-color: darksalmon;
+    margin-right: 20px;
+}
+
+.post {
+    width: 780px;
+    height: 390px;
+    background-color: lightblue;
+}
+
+.zxc {
+    border: 1px solid black;
+    box-sizing: border-box;
+}
+
+
