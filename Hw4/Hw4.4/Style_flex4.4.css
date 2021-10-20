@@ -1,0 +1,47 @@
+.container {
+    margin: 0 auto;
+    width: 800px;
+    display: flex;
+    flex-direction: column;
+}
+
+.content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.header {
+    background-color: #0C65A7;
+    height: 150px;
+}
+
+.top {
+    background-color: #124B78;
+    height: 120px;
+}
+
+.center {
+    display: flex;
+    height: 450px;
+}
+
+.center__left {
+    background-color: #16A2C5;
+    flex-grow: 3;
+}
+
+.center__right {
+    background-color: #5275AD;
+    flex-grow: 1;
+}
+
+.footer {
+    background-color: #79CEE3;
+    height: 120px;
+}
+
+p {
+    color: #D7FCFF;
+    font-size: 36px;
+}
