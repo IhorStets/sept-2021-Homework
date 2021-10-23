@@ -7,12 +7,15 @@
     box-sizing: border-box;
 }
 
-.header {
-    height: 200px;
+.color {
     background-color: #d9d9d9;
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.header {
+    height: 200px;
     margin-bottom: 5px;
 }
 
@@ -22,20 +25,11 @@
 }
 
 .block_b {
-    background-color: #d9d9d9;
     height: 400px;
     flex-grow: 4;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-
 }
 
 .block_c {
-    background-color: #d9d9d9;
     height: 400px;
     flex-grow: 1;
-    display: flex;
-    justify-content: center;
-    align-items: center;
 }
