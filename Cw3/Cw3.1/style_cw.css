@@ -7,12 +7,15 @@
     box-sizing: border-box;
 }
 
-.header {
-    height: 200px;
+.color {
     background-color: #d9d9d9;
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.header {
+    height: 200px;
     margin-bottom: 5px;
 }
 
@@ -23,11 +26,7 @@
 }
 
 .center__right {
-    background-color: #d9d9d9;
     flex-grow: 1;
-    display: flex;
-    align-items: center;
-    justify-content: center;
 }
 
 .center__left {
@@ -38,11 +37,7 @@
 }
 
 .center__left-top {
-    background-color: #d9d9d9;
     height: 50%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
 }
 
 .center__left-bottom {
@@ -52,11 +47,7 @@
 }
 
 .center__item {
-    background-color: #d9d9d9;
     flex-grow: 1;
-    display: flex;
-    align-items: center;
-    justify-content: center;
 }
 
 p {
