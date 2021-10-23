@@ -7,20 +7,19 @@
     row-gap: 20px;
 }
 
-.header {
+.color {
     background-color: #2269BB;
-    flex-grow: 1;
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
+.header {
+    flex-grow: 1;
+}
+
 .footer {
-    background-color: #2269BB;
     flex-grow: 2;
-    display: flex;
-    align-items: center;
-    justify-content: center;
 }
 
 .center {
@@ -32,9 +31,6 @@
 .center__item {
     background-color: #16457A;
     flex-grow: 1;
-    display: flex;
-    align-items: center;
-    justify-content: center;
 }
 
 p {
