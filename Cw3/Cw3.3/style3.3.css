@@ -11,14 +11,16 @@
     column-gap: 20px;
 }
 
-.top__content {
+.color {
     background-color: #2269BB;
+}
+
+.top__content {
     height: 500px;
     flex-grow: 1;
 }
 
 .center {
-    background-color: #2269BB;
     height: 220px;
 }
 
