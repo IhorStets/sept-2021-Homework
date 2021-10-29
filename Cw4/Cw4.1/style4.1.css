@@ -76,8 +76,8 @@
     flex-grow: 1;
     display: flex;
     flex-direction: column;
-    row-gap: 20px;
-    width: 100%;
+    align-items: center;
+    row-gap: 5px;
     padding: 30px ;
 }
 
@@ -88,7 +88,8 @@
 
 .center__box-circle {
     background-color: var(--gray);
-    height: 150px;
+    height: 120px;
+    width: 120px;
     border-radius: 50%;
 
 }
@@ -98,6 +99,7 @@
     column-gap: 10px;
     justify-content: center;
     padding: 20px;
+    width: 120px;
 }
 
 .center__box-text-left, .center__box-text-right{
@@ -109,6 +111,19 @@
 
 .center__box-text-right {
     flex-grow: 3;
+}
+
+.center__box-bottom-text {
+    display: flex;
+    width: 140px;
+    column-gap: 5px;
+}
+
+.center__box-bottom-text-text {
+    background-color: var(--gray);
+    flex-grow: 1;
+    height: 5px;
+    border-radius: 3px;
 }
 
 .footer {
