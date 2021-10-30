@@ -36,16 +36,17 @@
 
 }
 
+
+
 .header__top {
     background-color: var(--gray);
-    padding: 10px 20px 20px;
-    box-sizing: border-box;
 
 }
 
 .header__top-content {
     display: flex;
-    align-items: center;
+    justify-content: space-between;
+    padding: 10px 50px 20px;
 
 }
 
@@ -67,9 +68,32 @@
     background-color: var(--blue);
     height: 10px;
     width: 60px;
+    border-radius: 5px;
 }
 
-.header_content {
+.header__bottom {
     background-color: var(--aqua);
-    height: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 20px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+
+}
+
+.header__bottom-text {
+    text-align: center;
+    line-height: 25px;
+    width: 50%;
+}
+
+.header__bottom button {
+    margin-top: 30px;
+    background-color: var(--blue);
+    width: 300px;
+    height: 50px;
+    border-radius: 20px;
+    border: none;
+    color: #ffffff;
 }
