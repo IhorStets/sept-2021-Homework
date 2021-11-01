@@ -209,3 +209,126 @@
     height: 5px;
     border-radius: 3px;
 }
+
+.about {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 50px;
+    background-color: var(--gray);
+    text-align: center;
+}
+
+.about_header {
+    font-size: 30px;
+}
+
+.about_father {
+    display: flex;
+    column-gap: 20px;
+    row-gap: 20px;
+    flex-wrap: wrap;
+    margin: 40px 0;
+}
+
+.about_father_card {
+    border: 4px solid var(--light-blue);
+    border-radius: 20px;
+    width: 29%;
+    padding: 10px;
+
+}
+
+.about_father_card-foto {
+    background-color: var(--blue);
+    border-radius: 10px;
+    height: 150px;
+    margin-bottom: 20px;
+}
+
+.about_father_card-footer {
+    border-top: 4px solid var(--light-blue);
+    display: flex;
+    justify-content: space-between;
+    padding-top: 10px;
+    margin-top: 20px;
+}
+
+.about_father_card-footer-left {
+    background-color: var(--blue);
+    height: 20px;
+    width: 60px;
+    border-radius: 3px;
+}
+
+.about_father_card-footer-right {
+    display: flex;
+    column-gap: 20px;
+}
+
+.about_father_card-footer-right-item {
+    background-color: var(--blue);
+    height: 20px;
+    width: 20px;
+    border-radius: 3px;
+}
+
+.about_footer {
+    display: flex;
+    margin-top: 80px;
+}
+
+.about_footer-left {
+    background-color: var(--blue);
+    width: 50%;
+    padding: 40px;
+    color: var(--aqua);
+    text-align: left;
+}
+
+.about_footer-left .button{
+    height: 40px;
+    width: 150px;
+    background-color: var(--aqua);
+    border-radius: 5px;
+    margin-top: 30px;
+}
+
+.about_footer-right {
+    background-color: var(--aqua);
+    width: 50%;
+    padding: 40px;
+    color: var(--blue);
+    text-align: left;
+}
+
+.about_footer-right .button{
+    height: 40px;
+    width: 150px;
+    background-color: var(--blue);
+    border-radius: 5px;
+    margin-top: 30px;
+}
+
+.footer {
+    background-color: var(--blue);
+    padding: 30px 50px;
+    display: flex;
+    justify-content: center;
+}
+
+.footer__block {
+    width: 40%;
+    border-bottom: 4px solid var(--aqua);
+    display: flex;
+    column-gap: 10px;
+    padding: 20px;
+    justify-content: center;
+
+}
+
+.footer__block-item {
+    background-color: var(--gray);
+    width: 30px;
+    height: 30px;
+    border-radius: 3px;
+}
