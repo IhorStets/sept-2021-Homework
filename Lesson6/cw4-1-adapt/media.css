@@ -1,0 +1,30 @@
+@media screen and (min-width: 0px) and (max-width: 576px) {
+    .header {
+        padding: 20px;
+        width: 100%;
+    }
+
+    .header__header {
+        flex-wrap: wrap;
+        column-gap: 40px;
+
+    }
+
+
+    .header__item-top {
+        height: 100px;
+        width: 100px;
+    }
+
+    .header__item-bottom {
+        height: 20px;
+        width: 60px;
+    }
+
+    .center {
+        width: 100%;
+        flex-wrap: wrap;
+
+    }
+
+}
