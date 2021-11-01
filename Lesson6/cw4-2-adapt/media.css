@@ -1,0 +1,50 @@
+@media screen and (min-width: 0) and (max-width: 576px) {
+
+    .header__top .wrapper  {
+        padding: 0;
+    }
+
+    .logo {
+        height: 35px;
+        width: 100px;
+
+    }
+
+    .link-item {
+        height: 5px;
+        width: 30px;
+    }
+
+    .header__bottom {
+        padding: 50px 0;
+    }
+
+    .main__header {
+        flex-wrap: wrap;
+    }
+
+    .main__content {
+        align-items: center;
+    }
+
+    .main__item-top {
+        height: 150px;
+        width: 150px;
+    }
+
+    .main__item-bottom {
+        width: 120px;
+    }
+
+    .center {
+        flex-wrap: wrap;
+    }
+
+    .about_father {
+        justify-content: center;
+    }
+
+    .about_father_card-footer {
+        display: none;
+    }
+}
